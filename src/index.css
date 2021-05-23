@@ -1,13 +1,90 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+  color: aliceblue;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  border: none;
+  margin: 2px;
+  border-radius: 15px;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  filter: drop-shadow(-3px 3px 3px rgb(0, 0, 0));
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #E22674;
+  filter: drop-shadow(-5px 5px 6px rgb(0, 0, 0));
+  border-radius: 15px;
+}
+
+.App {
+  border: 2px dotted white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+h1, h2, h3, p {
+  filter: drop-shadow(-2px 2px 3px rgb(0, 0, 0));
+}
+
+.reset {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+  font-size: 20px;
+  color: E22674;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  float: right;
+  filter: drop-shadow(-2px 2px 3px rgb(0, 0, 0));
+}
+
+.resetColor {
+  color: #E22674;
+}
+
+@media only screen and (max-width: 620px) {
+  .reset {
+    width: 70px;
+    height: 70px;
+  }
+  h1, h2, h3, p {
+    font-size: 14px;
+  }
+  li {
+    font-size: 11px;
+  }
+  .reset {
+    width: 50px;
+    height: 50px;
+    display: grid;
+    margin-right: -22px;
+    top: 9px;
+    font-size: 15px;
+  }
 }
