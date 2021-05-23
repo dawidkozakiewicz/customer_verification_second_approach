@@ -34,6 +34,7 @@ export default function App() {
 
     <div className="App">
       <div className="reset resetColor" onClick={handleReset}>RESET</div>
+      <a href="http://dawidkozakiewicz.com/" target="_blank"><div className="author">O AUTORZE</div></a>
       <h2>1. W czym mogę pomóc?</h2>
       <h2>2. Jakiego numeru dotyczy sprawa?</h2>
       <h2>3. Na kogo zarejestrowany jest numer? Czy klient wie?</h2>

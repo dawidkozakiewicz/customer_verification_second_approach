@@ -88,3 +88,21 @@ h1, h2, h3, p {
     font-size: 15px;
   }
 }
+
+.author {
+  background-color: aliceblue;
+  width: 70px;
+  height: 18px;
+  color: #E22674;
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
